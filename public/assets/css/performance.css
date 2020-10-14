@@ -1,0 +1,58 @@
+
+.input-group{
+    margin-bottom: 0;
+  } 
+.button {
+    border: 1px solid #bbb;
+    border-radius: .3em;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    background: #f3f3f3; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
+  }
+.output {
+    margin: 0 auto;
+    padding: 1em; 
+  }
+.colors {
+    padding: 2em;
+    color: #fff;
+    display: none;
+  }
+.red {
+    background: #c04;
+  } 
+.yellow {
+    color: #000;
+    background: #f5e000;
+  } 
+.blue {
+    background: #079;
+  }
+
+/*#tableWrap table .th-current  {
+    color: #000;
+    background: #3b8dbc87;
+  }
+
+#tableWrap table tr td {   
+    vertical-align: middle;
+  }*/
+
+/*#tableWrap thead tr th , #tableWrap tbody tr td {
+    width: 3em;
+    min-width: 3em;
+    max-width: 3em;
+  }
+*/
+  .highlight {
+    background: #29B3D2 !important;
+  }
+
+  .mar_btm_15 {
+    margin-bottom: 15px;
+  }

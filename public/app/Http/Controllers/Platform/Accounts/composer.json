@@ -1,0 +1,25 @@
+{
+    "name": "Accounts",
+    "description": "",
+    "authors": [
+        {
+            "name": "Business Application Platform",
+            "email": "code@laravel.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Platform\\Accounts\\Providers\\AccountsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Platform\\Accounts\\": ""
+        }
+    }
+}

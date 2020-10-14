@@ -1,0 +1,105 @@
+.responsive-calendar{
+  border: 1px solid #cecbcb;
+}
+
+.responsive-calendar .controls {
+  text-align: center;
+  padding: 25px;
+    background: #4ecdc4;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+}
+.responsive-calendar .controls a {
+  cursor: pointer;
+}
+
+.responsive-calendar .controls .btn-primary{
+  background-color:#44b3ab;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.responsive-calendar .controls h4{
+ font-size: 30px;
+}
+
+.responsive-calendar .controls .btn-primary:hover{
+  background-color:#249991; 
+  color: #ccc;
+}
+
+.responsive-calendar .controls h4 {
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.responsive-calendar .controls h4 .year {
+  
+}
+.responsive-calendar .controls h4 .month {
+  
+}
+
+.responsive-calendar .day-headers,
+.responsive-calendar .days {
+  font-size: 0;
+}
+.responsive-calendar .day {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  width: 14.285714285714286%;
+  text-align: center;
+}
+.responsive-calendar .day a {
+  color: #000000;
+  display: block;
+  cursor: pointer;
+  padding: 20% 0 20% 0;
+  font-weight: 500;
+  font-size: 16px;
+  /*border:solid;  
+  border-width: thin;
+  border-color: lightgrey;*/
+}
+.responsive-calendar .day a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+.responsive-calendar .day.header {
+  border-bottom: 1px gray solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: #e66b6b;
+}
+
+.responsive-calendar .day.active a {
+  /*background-color: #1d86c8;*/
+  color: #000000;
+}
+.responsive-calendar .day.active a:hover {
+  background-color: #36a0e2;
+}
+.responsive-calendar .day.active .not-current {
+  background-color: #8fcaef;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current:hover {
+  background-color: #bcdff5;
+}
+.responsive-calendar .day.not-current a {
+  color: #ddd;
+}
+.responsive-calendar .day .badge {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 105%;
+  transform: translate(-50%, -50%);
+}

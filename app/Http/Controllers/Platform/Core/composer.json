@@ -1,0 +1,15 @@
+{
+    "name": "Laravel BPM core",
+    "description": "",
+    "authors": [
+        {
+            "name": "Laravel BPM - Business Application Manager",
+            "email": "code@laravel-bpm.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Platform\\Core\\": ""
+        }
+    }
+}

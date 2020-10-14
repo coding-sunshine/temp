@@ -1,0 +1,222 @@
+/* ---------------- For sticky header: class="float-panel"  ------------------*/
+
+
+/* Custom Css */
+.m_dropFilter_ico {
+	display: none;
+}
+
+.productBar {
+	height: 100%;
+}
+
+
+.float-panel {
+	width: 100%;
+	/*background: white;*/
+	z-index: 300;
+	/*padding: 5px 0;*/
+	transform: translateZ(0);
+	transition: all 0.5s;
+	/* Effect for switching from .fixed to static */
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+	position: relative;
+	
+}
+
+
+
+.float-panel .content-area {
+	margin: 10px auto;
+}
+
+
+.float-panel .nav {
+	/*margin-top: 10px;*/
+}
+
+.float-panel a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 8px !important;
+	text-transform: uppercase;
+}
+
+.float-panel .fa-gg {
+	color: #F0595C;
+	font-size: 30px;
+	vertical-align: middle;
+	transition: all 1s;
+}
+
+
+/* when class="float-panel fixed" */
+
+.fixed {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	/*padding: 4px 0;*/
+	animation: slide-down 0.7s;
+	opacity: 0.9;
+}
+
+.fixed .fa-gg {
+	transform: rotate(360deg);
+}
+
+@keyframes slide-down {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: translateY(0);
+	}
+}
+
+/***** Header Menu Css Custom *****/
+
+.fixed .yukt,
+.fixed .jumio {
+	transform: rotate(360deg);
+}
+
+.fixed .yukt {
+	width: 30px;
+}
+
+.fixed .jumio {
+	width: 114px;
+}
+
+.float-panel .yukt,
+.float-panel .jumio {
+	transition: all 1s ease 0s;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.yukt {
+	width: 50px;
+}
+
+.jumio {
+	width: 130px;
+    position: relative;
+    z-index: 99;
+}
+
+.fixed .nav {
+	/*margin-top: 10px;*/
+}
+
+.mar_top15 {
+    margin-top: 15px;
+}
+
+.mar_top20 {
+    margin-top: 20px;
+}
+
+.fixed .mar_top15 {
+	margin-top: 4px;
+}
+
+.navbar-default .navbar-nav > li {
+	margin: 0 2px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 14px;
+	padding: 18px 10px !important;
+	transition: all 0.5s ease-in-out 0s;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a {
+	/*	background: rgb(140, 198, 63) ;*/
+	border-radius: 4px;
+	color: #fff;
+	color: #ffffff !important;
+    border-color: #0a4e99;
+    background: #0a4e99 url(../img/blue-bg.png) repeat-x 0 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1b91dd), to(#0a4e99));
+    background-image: -webkit-linear-gradient(top, #1b91dd, #0a4e99);
+    background-image: -moz-linear-gradient(top, #1b91dd, #0a4e99);
+    background-image: -ms-linear-gradient(top, #1b91dd, #0a4e99);
+    background-image: -o-linear-gradient(top, #1b91dd, #0a4e99);
+    background-image: linear-gradient(top, #1b91dd, #0a4e99);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+/* -------------------------------- 
+
+Dropdown Menu css on header menu 
+
+--------------------------------  */
+
+.dropdown-menu li a {
+	font-size: 12px;
+transition: all 0.5s ease-in-out 0s
+}
+
+
+/* -------------------------------- 
+
+Bubble Effects on header menu css
+
+--------------------------------  */
+
+.center-outer {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.center-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/* Essential CSS - Makes the effect work */
+
+/*
+		body {
+			background-color: #3498db;
+		}
+*/
+
+.bubbles {
+	display: inline-block;
+	font-family: arial;
+	position: relative;
+}
+
+.bubbles a {
+	position: relative;
+	margin: 0;
+	/*font-family: 'Luckiest Guy', cursive;*/
+	color: #fff;
+	z-index: 2;
+}
+
+.individual-bubble {
+	position: absolute;
+	border-radius: 100%;
+	bottom: 10px;
+	background-color: rgb(140, 198, 63);
+	z-index: 1;
+}
+
+
